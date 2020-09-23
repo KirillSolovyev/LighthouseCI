@@ -1,0 +1,34 @@
+[
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.31,
+    "values": [
+      0.27,
+      0.27,
+      0.31
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "http://localhost:8080/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.91,
+    "values": [
+      0.91,
+      0.91,
+      0.91
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "error",
+    "url": "http://localhost:8080/"
+  }
+]
